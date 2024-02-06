@@ -546,10 +546,6 @@ video {
 
 .container {
   width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 1.4rem;
-  padding-left: 1.4rem;
 }
 
 @media (min-width: 640px) {
@@ -582,6 +578,10 @@ video {
   }
 }
 
+.box-border {
+  box-sizing: border-box;
+}
+
 .flex {
   display: flex;
 }
@@ -594,12 +594,25 @@ video {
   cursor: pointer;
 }
 
+.place-items-stretch {
+  place-items: stretch;
+}
+
 .items-center {
   align-items: center;
 }
 
 .justify-center {
   justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .bg-slate-950 {

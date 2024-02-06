@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 node_modules/
 
 postcss.config.js
@@ -5,3 +6,15 @@ tailwind.config.js
 
 package.json
 package-lock.json
+=======
+# Ignorar el directorio node_modules
+node_modules/
+
+postcss.config.js
+talwind.config.js
+
+package-lock.json
+package.json
+
+css/
+>>>>>>> 6a84cbdc874f909278bfbc7b1e1676373fcc867d
